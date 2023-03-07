@@ -1,0 +1,42 @@
+$font-text: 'Inconsolata', monospace;
+$font-header: 'Signika', sans-serif;
+$font-hand: 'Pacifico', cursive;
+
+$font-color-dark: #333333;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+    color: $font-color-dark;    
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding:  12px 12px;
+}
+
+.header .container a.link { 
+    text-decoration: none; 
+    color: blue;
+}
+
+.header i {
+    font-family: $font-hand;
+    color: gold;
+    font-size: 24;
+}
+
+.menu {
+    justify-content: right;
+}
